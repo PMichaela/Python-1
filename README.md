@@ -1,1 +1,1 @@
-# muj-kurz-pythonu1
+# my_python course
