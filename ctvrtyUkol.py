@@ -1,3 +1,4 @@
+# Jednoduchá aplikaci pro zasílání SMS zpráv.
 PHONE_NUMBER = input("Zadejte telefonní číslo, kam chceš zprávu poslat: ")
 
 def number_validate(YOUR_NUMBER):
