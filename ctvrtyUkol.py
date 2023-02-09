@@ -1,5 +1,5 @@
 # Jednoduchá aplikaci pro zasílání SMS zpráv.
-PHONE_NUMBER = input("Zadejte telefonní číslo, kam chceš zprávu poslat: ")
+PHONE_NUMBER = input("Zadejte telefonní číslo, kam chcete zprávu poslat: ")
 
 def number_validate(YOUR_NUMBER):
     if len(PHONE_NUMBER) == 9:
