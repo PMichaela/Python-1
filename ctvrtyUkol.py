@@ -11,7 +11,7 @@ def number_validate(YOUR_NUMBER):
 print(number_validate(PHONE_NUMBER))
 
 def price_message(message):
-    cost = 3 * (len(message) // 180 + 1)
+    cost = (len(message) + 179) // 180 * 3
     return cost
 
 if number_validate(PHONE_NUMBER):
